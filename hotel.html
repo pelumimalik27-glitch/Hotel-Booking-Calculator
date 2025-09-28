@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="hotel">
+        <h1>Hotel booking Calculator</h1>
+        <label for="night">Night lodge</label>
+        <input type="number" id="nightBooking" placeholder="night room count">
+
+        <label for="hotelRoom">Hotel Room</label>
+        <select name="room" id="nightRoom">
+            <option value="standard">standard</option>
+            <option value="deluxe">deluxe</option>
+            <option value="suit">suit</option>
+        </select>
+
+       <div class="fast">
+         <label for="breakFast"> include breakFast</label>
+        <input type="checkbox" id="nightLunch">
+       </div>
+
+        <button onclick="result()">total cost</button>
+        <p id="calculate"></p>
+
+    </div>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
