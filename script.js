@@ -15,7 +15,7 @@ function result() {
         baseCost += 10000;
     }
    
-
+     let totalCost = baseCost * nightLodge 
     if(nightLodge > 5){
         document.getElementById("calculate").innerText = "apply a discount of 2000 on the total cost";
         totalCost -= 2000
@@ -24,7 +24,7 @@ function result() {
     if(includeBreakFast){
         baseCost += 2000;
     }
-     let totalCost = baseCost * nightLodge 
+    
 
      let message = "The total cost for a " + nightLodge + "-night stay in a " + hotelRoom + " is " + totalCost;
     console.log(message);
